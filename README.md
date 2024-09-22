@@ -1,30 +1,20 @@
 # 🔒 cybersecurity
 
-## 📚 resources
-
-- [Cybersecurity Resources](https://github.com/konradjkosinski/cybersecurity-resources)
-
 ## 📚 guides
 
-- [Cybersecurity Guides](https://github.com/sundowndev/CyberSecurity)
-- [Cybersecurity Guides](https://github.com/0xInfection/Awesome-Cybersecurity)
-- [Cybersecurity Guides >> Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
-- [Cybersecurity Guides](https://github.com/PaulSec/awesome-sec-talks)
+- [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
+- [Sec Talks](https://github.com/PaulSec/awesome-sec-talks)
 
 ## 📚 books
 
-- [Cybersecurity Books](https://github.com/infoslack/awesome-cybersecurity-books)
-- [Cybersecurity Books](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
-- [Cybersecurity Books](https://github.com/Hack-with-Github/Awesome-Hacking)
-- [Cybersecurity Books](https://github.com/0xInfection/Awesome-Cybersecurity)
+- [Resources for Beginner Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
+
 
 ## 📚 courses
 
-- [Cybersecurity Courses](https://github.com/prakhar1989/awesome-courses#cybersecurity)
+- [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses#cybersecurity)
 - [Cybersecurity Courses](https://github.com/PaulSec/awesome-sec-talks)
 - [Cybersecurity Courses](https://github.com/infoslack/awesome-cybersecurity-books)
-- [Cybersecurity Courses](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
-- [Cybersecurity Courses](https://github.com/Hack-with-Github/Awesome-Hacking)
 - [Cybersecurity Courses](https://github.com/0xInfection/Awesome-Cybersecurity)
 
 ## 📚 blogs
