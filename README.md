@@ -8,7 +8,7 @@
 
 - [Cybersecurity Guides](https://github.com/sundowndev/CyberSecurity)
 - [Cybersecurity Guides](https://github.com/0xInfection/Awesome-Cybersecurity)
-- [Cybersecurity Guides](https://github.com/Hack-with-Github/Awesome-Hacking)
+- [Cybersecurity Guides >> Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
 - [Cybersecurity Guides](https://github.com/PaulSec/awesome-sec-talks)
 
 ## 📚 books
