@@ -17,4 +17,7 @@
 
 ## 📚 tools
 
+- [Awesome Hacking Tools](https://github.com/carpedm20/awesome-hacking)
+	
+
 
