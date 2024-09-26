@@ -18,7 +18,7 @@ def check_running_processes():
     suspicious_processes = []
     for proc in psutil.process_iter(['name', 'exe', 'cmdline']):
         try:
-            # Aquí puedes agregar nombres de procesos que consideres sospechosos
+            # Add names of processes you consider suspicious here
             if proc.name().lower() in ['malware.exe', 'suspiciousapp.exe']:
                 suspicious_processes.append(proc.name())
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
@@ -31,29 +31,29 @@ def check_os_version():
 def check_firewall():
     if platform.system() == "Windows":
         firewall_status = os.system("netsh advfirewall show allprofiles state")
-        return "Firewall está activo" if firewall_status == 0 else "Firewall podría estar desactivado"
+        return "Firewall is active" if firewall_status == 0 else "Firewall might be inactive"
     elif platform.system() == "Linux":
         firewall_status = os.system("sudo ufw status")
-        return "Firewall está activo" if firewall_status == 0 else "Firewall podría estar desactivado"
+        return "Firewall is active" if firewall_status == 0 else "Firewall might be inactive"
     else:
-        return "No se pudo determinar el estado del firewall en este sistema operativo"
+        return "Unable to determine firewall status on this operating system"
 
 def main():
-    print("Ejecutando pruebas de seguridad básicas...")
+    print("Running basic security tests...")
     
-    print("\nPuertos abiertos:")
+    print("\nOpen ports:")
     open_ports = check_open_ports()
     for port in open_ports:
-        print(f"Puerto {port} está abierto")
+        print(f"Port {port} is open")
     
-    print("\nProcesos sospechosos en ejecución:")
+    print("\nSuspicious running processes:")
     suspicious_procs = check_running_processes()
     for proc in suspicious_procs:
-        print(f"Proceso sospechoso detectado: {proc}")
+        print(f"Suspicious process detected: {proc}")
     
-    print(f"\nVersión del sistema operativo: {check_os_version()}")
+    print(f"\nOperating System version: {check_os_version()}")
     
-    print(f"\nEstado del firewall: {check_firewall()}")
+    print(f"\nFirewall status: {check_firewall()}")
 
 if __name__ == "__main__":
     main()

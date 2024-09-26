@@ -1,1 +1,6 @@
 psutil
+requests 
+pyopenssl
+cryptography 
+python-nmap 
+scapy
