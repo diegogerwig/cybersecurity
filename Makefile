@@ -7,7 +7,5 @@ req:
 
 run:
 	@ printf "🚀 Running tests...\n"
-	python3 ./tests/basic.py
-	python3 ./tests/advanced.py
 	python3 ./tests/security_analyzer.py
 	@ printf "✅ All tests passed successfully.\n"

@@ -23,6 +23,7 @@ def check_running_processes():
                 suspicious_processes.append(proc.name())
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
+        
     return suspicious_processes
 
 def check_os_version():
